@@ -4,7 +4,6 @@ var util=require('util');
 var fs = require('fs');
 
 if(process.argv.length !== 4) { 
-    console.log(process.argv.length, process.argv);
     console.log( util.format('Usage: node-kit input.kit output.html', process.argv[0]) );
     process.exit(1);
 }
