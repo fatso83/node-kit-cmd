@@ -1,0 +1,21 @@
+{
+  "name": "node-kit-cmd",
+  "version": "1.0.0",
+  "description": "A command line wrapper of node-kit",
+  "main": "index.js",
+  "bin": {
+    "node-kit": "./index.js"
+  },
+  "scripts": {
+    "test": "node run-test.js"
+  },
+  "keywords": [
+    "codekit",
+    "node-kit"
+  ],
+  "author": "Carl-Erik Kopseng (github.com/fatso83)",
+  "license": "MIT",
+  "dependencies": {
+    "node-kit": "*"
+  }
+}
